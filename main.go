@@ -1,6 +1,8 @@
 package main
 
 import (
+	"os"
+
 	"gitlab.com/meta-node/mail/config"
 	"gitlab.com/meta-node/mail/core/database"
 	"gitlab.com/meta-node/mail/core/routers"
@@ -21,4 +23,10 @@ func runHttpsServer() {
 	r := routers.InitRouter()
 	port := config.GetConfig().Server.HTTP.Port
 	r.Run(port)
+
+	port, existed := os.LookupEnv("PORT")
+	if !existed {
+		port = "3000"
+	}
+	r.Run(":" + port)
 }
