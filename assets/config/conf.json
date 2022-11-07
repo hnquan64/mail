@@ -1,0 +1,24 @@
+{
+    "server": {
+        "address": "ddd52a4f3dad8831d20c8f9bc46e00e7d98651dd",
+        "ip": "127.0.0.1",
+        "port": 3011,
+        "http": {
+            "port": ":5000"
+        }
+    },
+    "data_base_config1": {
+        "user": "new_cms_user",
+        "pass": "HAQBF8X4jQ9qA.",
+        "host": "61.28.238.162",
+        "port": "3306",
+        "db": "em"
+    },
+    "data_base_config": {
+        "user": "root",
+        "pass": "hnq641999",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "mail"
+    }
+}
