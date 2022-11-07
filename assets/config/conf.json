@@ -7,14 +7,14 @@
             "port": ":5000"
         }
     },
-    "data_base_config1": {
+    "data_base_config": {
         "user": "new_cms_user",
         "pass": "HAQBF8X4jQ9qA.",
         "host": "61.28.238.162",
         "port": "3306",
         "db": "em"
     },
-    "data_base_config": {
+    "data_base_config1": {
         "user": "root",
         "pass": "hnq641999",
         "host": "127.0.0.1",
